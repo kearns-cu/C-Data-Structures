@@ -1,3 +1,7 @@
+ /*
+  * Main file with functionality of taking the ages of three people and outputting the least and greatest of the ages given
+  */
+
 #include <iostream>
 using namespace std;
 
