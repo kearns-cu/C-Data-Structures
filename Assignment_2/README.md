@@ -1,0 +1,7 @@
+# CPSC350-02
+## SPRING 2022
+## Assignment_2
+###### Ronan Kearns
+###### mainprogram.cpp
+###### Parser.cpp
+###### Parser.h
