@@ -1,8 +1,15 @@
 # CPSC350-02
 ## SPRING 2022
-## Assignment_2
+## Assignment_3
 ###### Ronan Kearns
 ###### ID: 2366311
 ###### mainprogram.cpp
-###### Parser.cpp
-###### Parser.h
+###### FileProcessor.cpp
+###### FileProcessor.h
+###### Model.cpp
+###### Model.h
+###### Translator.cpp
+###### Translator.h
+###### output.txt
+###### input.txt 
+###### README.md
