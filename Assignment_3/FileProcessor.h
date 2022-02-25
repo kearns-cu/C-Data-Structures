@@ -1,3 +1,7 @@
+/*
+FileProcessor.h
+Defines the methods, constructors, and destructor of the FileProcessor class
+*/
 #ifndef FILEPROCESSOR_H
 #define FILEPROCESSOR_H
 #include <string>
