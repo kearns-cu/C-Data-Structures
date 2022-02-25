@@ -1,3 +1,7 @@
+/*
+Model.h
+Defines the methods, constructors, and destructor of the Model class
+*/
 #ifndef MODEL_H
 #define MODEL_H
 #include <string>
