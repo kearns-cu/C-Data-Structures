@@ -1,3 +1,7 @@
+/*
+Translator.h
+Defines the methods, constructors, and destructor of the Translator class
+*/
 #ifndef TRANSLATOR_H
 #define TRANSLATOR_H
 #include <string>
