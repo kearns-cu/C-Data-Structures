@@ -10,6 +10,5 @@
 ###### Model.h
 ###### Translator.cpp
 ###### Translator.h
-###### output.txt
 ###### input.txt 
 ###### README.md
