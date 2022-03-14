@@ -1,6 +1,6 @@
 # CPSC 350-02
 ## Assignment 4
-## Thomas Kudey && Ronan Kearns
+## Thomas Kudey & Ronan Kearns
 ## ID: 2366311
 ###### README.md
 ###### main.cpp
