@@ -2,7 +2,7 @@
 ## Assignment 6
 ## Ronan Kearns
 ## ID: 2366311
-## Colloborators:
+## Collaborators:
 Aiden Grenz
 ## Files
 ###### README.md
