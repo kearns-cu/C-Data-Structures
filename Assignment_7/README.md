@@ -16,7 +16,6 @@ Aiden Grenz
 ###### Faculty.cpp
 ###### List.h
 ###### LinkedList.h
-###### BST.txt
 ###### GenStack.h
 ###### facultyTable.txt
 ###### studentTable.txt
