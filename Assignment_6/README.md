@@ -6,7 +6,6 @@
 Aiden Grenz
 ## Files
 ###### README.md
-###### Makefile
 ###### main.cpp
 ###### ListNode.h
 ###### DoublyLinkedList.h
