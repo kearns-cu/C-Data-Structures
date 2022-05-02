@@ -17,6 +17,9 @@ Aiden Grenz
 ###### List.h
 ###### LinkedList.h
 ###### BST.txt
+###### GenStack.h
+###### facultyTable.txt
+###### studentTable.txt
 ## References
 ###### StackOverFlow, helped figure out errors and syntax
 ###### Zybook, helped connect the faculty and students
