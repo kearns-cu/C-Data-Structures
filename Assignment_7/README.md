@@ -18,3 +18,5 @@ Aiden Grenz
 ###### LinkedList.h
 ###### BST.txt
 ## References
+###### StackOverFlow, helped figure out errors and syntax
+###### Zybook, helped connect the faculty and students
