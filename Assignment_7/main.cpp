@@ -18,7 +18,6 @@ using namespace std;
 int main(int argc, char* argv[])
 {
   int input = 0;
-  int rollbackCount = 0;
   ifstream inputStream;
   ofstream outputStream;
   BST<Student> *studentTable = new BST<Student>();
@@ -132,7 +131,6 @@ int main(int argc, char* argv[])
     }
     if (input == 1)
     {
-      rollbackCount--;
       if (studentTable->isEmpty())
       {
         cout << "There are no students in database." << endl;
@@ -145,7 +143,6 @@ int main(int argc, char* argv[])
     }
     else if (input == 2)
     {
-      rollbackCount--;
       if (facultyTable->isEmpty())
       {
         cout << "There are no faculty members in database." << endl;
@@ -158,7 +155,6 @@ int main(int argc, char* argv[])
     }
     else if (input == 3)
     {
-      rollbackCount--;
       int id = 0;
       cout << "What is the ID of the student?" << endl;
       while (!(cin >> id))
@@ -182,7 +178,7 @@ int main(int argc, char* argv[])
     }
     else if (input == 4)
     {
-      rollbackCount--;
+    
       int id = 0;
       cout << "What is the ID of the faculty member?" << endl;
       while (!(cin >> id))
@@ -206,7 +202,7 @@ int main(int argc, char* argv[])
     }
     else if (input == 5)
     {
-      rollbackCount--;
+  
       int id = 0;
       cout << "What is the student ID of the student that you want to print the faculty info for?" << endl;
       while (!(cin >> id))
@@ -240,7 +236,7 @@ int main(int argc, char* argv[])
     }
     else if (input == 6)
     {
-      rollbackCount--;
+    
       int id = 0;
       cout << "What is the ID of the faculty member that you want to display student info for?" << endl;
       while (!(cin >> id))
@@ -264,7 +260,7 @@ int main(int argc, char* argv[])
     }
     else if (input == 7)
     {
-      rollbackCount--;
+    
       string answer = "";
       string name = "";
       int id = 0;
@@ -343,7 +339,7 @@ int main(int argc, char* argv[])
     }
     else if (input == 8)
     {
-      rollbackCount--;
+
       int id = 0;
       cout << "What is the ID of the student that you want to delete?" << endl;
       while (!(cin >> id))
@@ -378,7 +374,7 @@ int main(int argc, char* argv[])
     }
     else if (input == 9)
     {
-      rollbackCount--;
+    
       string name = "";
       int id = 0;
       string level = "";
@@ -406,7 +402,7 @@ int main(int argc, char* argv[])
     }
     else if (input == 10)
     {
-      rollbackCount--;
+   
       int id = 0;
       cout << "What is the ID of the faculty member that you want to delete?" << endl;
       while (!(cin >> id))
@@ -440,7 +436,7 @@ int main(int argc, char* argv[])
     }
     else if (input == 11)
     {
-      rollbackCount--;
+    
       int sId = 0;
       int fId = 0;
       cout << "What is the ID of the student who you want to change the advisor for?" << endl;
@@ -508,7 +504,7 @@ int main(int argc, char* argv[])
     }
     else if (input == 12)
     {
-      rollbackCount--;
+   
       int sID = 0;
       int fID = 0;
       cout << "What is the ID of the student that you want to remove?" << endl;
@@ -559,9 +555,9 @@ int main(int argc, char* argv[])
         continue;
       }
     }
-    else if (input == 13 && rollbackCount !=5)
+    else if (input == 13)
     {
-      rollbackCount++;
+  
       if(!typeChange->isEmpty())
       {
         char type = typeChange->pop();
@@ -624,7 +620,7 @@ int main(int argc, char* argv[])
     }
     else if (input == 14)
     {
-      rollbackCount--;
+  
       cout << "Saving Student and Faculty Tables" << endl;
       cout << "Opening Student Table File" << endl;
       outputStream.open("studentTable.txt");
